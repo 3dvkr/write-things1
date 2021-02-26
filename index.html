@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="An app that incentivizes writing through beautiful pictures">
+
+
+		<title>Write Things.</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<main class="">
+			<section class="writingPad">
+				<h1>Write things.</h1>
+				<p class="instructions">You'll get a new picture every fifty words typed.</p>
+
+				<section class="textAndImg">
+
+					<textarea class="writingPadBlock dots" id="myText"></textarea>
+
+					<div class='imgContainer'>
+						<img src="https://picsum.photos/300" alt="An automatically retrieved scenic photograph" id="pic1" class="">
+						<img src="https://picsum.photos/200" alt="An automatically retrieved scenic photograph" id="pic2" class="hide">
+						<!-- https://picsum.photos/id/1009/5000/7502 for a tall picture -->
+						<button type="button" name="button">Pick a new picture</button>
+					</div>					
+
+				</section>
+				<section class="endInfo">
+					<p>Word Count: <span id="tellCount"></span></p>
+				</section>
+			</section>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
