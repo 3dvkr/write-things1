@@ -40,7 +40,7 @@ function countWords() {
   if (textbox.value.trim().length !== 0) {
       let wordArr = textbox.value.trim().split(' ').filter(x => x != '');
       if (wordArr.length != 0) {
-        if (wordArr.length % 50 == 0) {
+        if (wordArr.length % 20 == 0) {
             if (!changeWord) {
               getFetch();
               changeWord = true;
