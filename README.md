@@ -7,7 +7,7 @@ An app that uses local/ client-side storage to track what you write, and fetches
 - Vanilla CSS
 - Vanilla JS
 
-## Optimization:
+## Future optimizations:
 - add option to change the number of words typed
 - fix CSS layout issues for some viewports
 - add option to change the image source/find other APIs
